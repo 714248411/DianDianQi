@@ -1,0 +1,21 @@
+# Build output and local runtime files
+._cache_*.exe
+*.log
+log.txt
+settings.json
+addnode.req
+shot.req
+bl_appself.png
+
+# User-created tasks and templates
+*.btask
+模板/
+模板图片/
+
+# IDE / OS files
+.vs/
+.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
