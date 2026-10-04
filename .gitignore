@@ -19,3 +19,6 @@ bl_appself.png
 *.suo
 Thumbs.db
 Desktop.ini
+
+# Generated release packages
+dist/

@@ -2,6 +2,8 @@
 
 原"布灵点点-高级版"按键脚本工具的离线复刻版。无需登录授权码、无任何联网验证，全部功能本地运行。
 
+> 当前发布版仅支持 Windows 10/11。macOS 与 Linux 版本尚未完成移植，请勿尝试用 Wine/Mono 运行正式任务。原因与移植范围见 [PLATFORM_SUPPORT.md](PLATFORM_SUPPORT.md)。
+
 - GitHub：[714248411/DianDianQi](https://github.com/714248411/DianDianQi)
 - Gitee：[一只言逸/点点器](https://gitee.com/YiZhiYanYi/DianDianQi)
 
@@ -108,6 +110,16 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
 构建成功后会在项目根目录生成 `言逸点点器.exe`、`DllBridge32.exe` 和 `DllBridge64.exe`。运行主程序时请保留 `assets` 目录，以便显示捐赠图片。
+
+## 制作发行包
+
+在 Windows PowerShell 中运行：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\release.ps1 -Version 1.0.0
+```
+
+脚本会先重新编译并执行自测，再在 `dist` 目录生成 Windows 离线 ZIP 和对应的 SHA-256 校验文件。
 
 ## 联系
 
