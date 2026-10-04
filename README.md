@@ -2,6 +2,9 @@
 
 原"布灵点点-高级版"按键脚本工具的离线复刻版。无需登录授权码、无任何联网验证，全部功能本地运行。
 
+- GitHub：[714248411/DianDianQi](https://github.com/714248411/DianDianQi)
+- Gitee：[一只言逸/点点器](https://gitee.com/YiZhiYanYi/DianDianQi)
+
 ## 快速开始
 
 直接双击 `言逸点点器.exe`，启动即进入主界面，无任何弹窗和登录。
